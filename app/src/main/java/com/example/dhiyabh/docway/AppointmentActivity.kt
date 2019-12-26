@@ -45,8 +45,6 @@ class AppointmentActivity : AppCompatActivity() {
             startActivity(Intent(this,CalendarActivity::class.java))
         }
 
-
-
         var data = db.readData()
         t2.text = ""
         for(i in 0..data.size-1){
