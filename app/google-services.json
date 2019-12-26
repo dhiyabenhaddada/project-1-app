@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "752898132168",
+    "firebase_url": "https://docway-auth.firebaseio.com",
+    "project_id": "docway-auth",
+    "storage_bucket": "docway-auth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752898132168:android:b38c81fd253f58da95fdfd",
+        "android_client_info": {
+          "package_name": "com.example.dhiyabh.docway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752898132168-gr3ib8kp9hf9evri82frrb4foqnkjoqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dhiyabh.docway",
+            "certificate_hash": "feee9be41dcee1ce6aaac2be3fbc9306d3bc5d52"
+          }
+        },
+        {
+          "client_id": "752898132168-s6dqii7ldc5njqjrp7g2bqiqhs5o8sa0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpssOwvgn41qm0KtJa7oprMfLAhzNkMAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752898132168-s6dqii7ldc5njqjrp7g2bqiqhs5o8sa0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

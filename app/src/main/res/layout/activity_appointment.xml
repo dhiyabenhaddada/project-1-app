@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AppointmentActivity">
+
+
+    <EditText
+        android:id="@+id/ett1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="@string/doctor_s_name"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:autofillHints=""
+        tools:targetApi="o" />
+
+
+
+    <EditText
+        android:id="@+id/ett2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/date"
+        android:inputType="datetime|date"
+        android:padding="10dp"
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/bttn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calendar"
+        android:background="@color/design_default_color_primary" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/bttn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/insert"
+            android:background="@color/colorPrimaryDark"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <Button
+            android:id="@+id/bttn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/delete"
+            android:background="@color/colorAccent"
+            style="?android:attr/borderlessButtonStyle"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/appointment_list_is_empty"
+            android:textSize="25sp"
+            android:focusable="true"
+            android:layout_margin="10dp"
+            android:ems="10"
+
+            android:padding="10dp"/>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
