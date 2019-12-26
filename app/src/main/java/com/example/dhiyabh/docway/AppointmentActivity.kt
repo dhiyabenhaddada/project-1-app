@@ -7,7 +7,6 @@ import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_appointment.*
 
 
-
 class AppointmentActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
